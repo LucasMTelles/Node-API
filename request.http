@@ -1,0 +1,26 @@
+POST http://localhost:3001/produtos
+content-type: application/json
+
+{
+    "name": "Teste 03",
+    "price": 28.90,
+    "description": "Produto cadastrado com sucesso"
+}
+
+###
+
+GET http://localhost:3001/produtos
+
+###
+
+GET http://localhost:3001/produtos/df999b4e-7557-48f3-a8ec-bb4a6c4ff00b
+
+###
+
+PUT http://localhost:3001/produtos/467ee9f5-c2fc-4e75-9d68-9f845a23a062
+content-type: application/json
+{
+    "name": "Teste 20",
+    "price": 28.90,
+    "description": "Teste 10 funcionou"
+}
